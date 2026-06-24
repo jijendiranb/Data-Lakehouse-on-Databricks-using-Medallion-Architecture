@@ -73,46 +73,6 @@ Business-ready dimensional models optimized for analytics.
 
 ---
 
-# 📂 Repository Structure
-
-```text
-databricks-lakehouse-project/
-
-├── notebooks/
-│
-├── bronze/
-│   ├── bronze_erp_customers
-│   ├── bronze_erp_products
-│   └── bronze_crm_sales
-│
-├── silver/
-│   ├── silver_customers
-│   ├── silver_products
-│   ├── silver_sales
-│   ├── silver_locations
-│   ├── silver_categories
-│   └── silver_reference_data
-│
-├── gold/
-│   ├── dim_customers
-│   ├── dim_products
-│   └── fact_sales
-│
-├── orchestration/
-│   └── workflow_job
-│
-├── source_data/
-│   ├── ERP
-│   └── CRM
-│
-├── architecture/
-│   └── medallion_architecture.png
-│
-└── README.md
-```
-
----
-
 # 🛠️ ETL/ELT Workflow
 
 ### Step 1: Data Ingestion
